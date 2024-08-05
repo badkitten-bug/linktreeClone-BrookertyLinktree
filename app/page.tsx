@@ -41,14 +41,14 @@ const Home: React.FC = () => {
       <div className="relative w-full sm:w-3/4 lg:w-1/2">
         <div className="absolute inset-0 bg-gradient-to-b from-white to-transparent rounded-lg opacity-90 pointer-events-none"></div>
         <div className="relative z-10 bg-opacity-90 rounded-lg shadow-lg p-8 text-center">
-          <ProfilePicture src="/logoBrookertyCheck.png" alt="Profile Picture" />
+          <ProfilePicture src="/logoBrookertyCheck.png" alt="Brookerty Rentas y Ventas de Terrenos" />
           <p className="font-montserrat font-semibold text-xl text-custom-verde mt-4">
             Ingresa a tu sector
           </p>
           <p className="font-montserrat font-semibold text-xl text-custom-verde mt-2 mb-8">
             y encuentra una renta fácil
           </p>
-          <ProfilePicture src="/logoRentas.png" alt="Profile Picture" />
+          <ProfilePicture src="/logoRentas.png" alt="Rentas disponibles Santo Domingo" />
           <div className="w-full">
             {links.map((link) => (
               <LinkButton key={link.id} label={link.label} url={link.url} customClass={link.customClass} />
